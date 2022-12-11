@@ -1,0 +1,17 @@
+{
+    "app" : {
+        "name": "Otrack Tracking Server",
+        "version" : "0.0.1"
+    },
+    "mongo" : {
+        "server" : "mongodb+srv://thakendra12:<oTrack2022>@cluster0.f7buymm.mongodb.net/?retryWrites=true&w=majority",
+        "database": "OtrackDatabase",
+        "username" : "thakendra12",
+        "password" : "oTrack2022",
+        "port" : 21282,
+        "url" : "mongodb://thakendra12:<oTrack2022>@ac-5vvrdjj-shard-00-00.f7buymm.mongodb.net:27017,ac-5vvrdjj-shard-00-01.f7buymm.mongodb.net:27017,ac-5vvrdjj-shard-00-02.f7buymm.mongodb.net:27017/?ssl=true&replicaSet=atlas-h5bl3n-shard-0&authSource=admin&retryWrites=true&w=majority"
+    },
+    "zeromq" : {
+        "url" : "tcp://localhost:5556"
+    }
+}
